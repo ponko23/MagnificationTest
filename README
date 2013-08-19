@@ -1,0 +1,7 @@
+jQueryとかCSSとかのテストコード色々
+・aspectFit.js
+  横長の時はbodyを縦：横＝1：2に、
+  縦長の時はbodyを縦：横＝2：1に保持し余白を作る
+
+・getChecked.js
+  チェックが入っているチェックボックスの数と該当する干支をmessage欄に出力する
