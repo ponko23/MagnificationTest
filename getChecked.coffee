@@ -1,9 +1,9 @@
-$ ()->
-  $('#checkButton').click ()->
+$ ->
+  $('#checkButton').on 'click', ->
     chkItem = $('.checkList:checked')
     ItemNum = chkItem.length
     msgTxt = []
-    msgTxt.push 'チェック：',ItemNum , '<br>'
+    msgTxt.push 'チェック：', ItemNum , '<br>'
     for i in chkItem
       msgTxt.push i.value
     

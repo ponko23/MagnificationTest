@@ -1,5 +1,5 @@
-$ ()->
-  aspectFit = ()->
+$ ->
+  aspectFit = ->
     browserW = innerWidth
     browserH = innerHeight
     bodyStyle = $('body')
@@ -24,5 +24,5 @@ $ ()->
 
   aspectFit()
 
-  $(window).resize ()->
+  $(window).on 'resize', ->
     aspectFit()

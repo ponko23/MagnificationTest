@@ -33,7 +33,7 @@ $(function() {
     }
   };
   aspectFit();
-  return $(window).resize(function() {
+  return $(window).on('resize', function() {
     return aspectFit();
   });
 });
